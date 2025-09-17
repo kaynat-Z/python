@@ -5,3 +5,5 @@ print(x)
 # class variables
 y = 10
 print(y)
+z = "welcome"
+print(z)

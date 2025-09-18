@@ -7,3 +7,5 @@ y = 10
 print(y)
 z = "welcome"
 print(z)
+school = "student"
+print(school)

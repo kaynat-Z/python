@@ -20,5 +20,10 @@ word2 = input("Enter second word: ")
 combined_words = word1 + " " + word2
 print("combined words:", combined_words)
  #Q4
- #Write a program that asks for the user’s birth year and current year. Then print their age.
- birth_year = int(input)
+ #Write user’s birth year and current year. Then print their age.
+
+birth_year = int(input ("Enter your birth year: "))
+current_year = int(input("Enter current year: "))
+age = current_year - birth_year
+
+print("Your age is :", age)

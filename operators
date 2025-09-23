@@ -1,0 +1,10 @@
+# user's percentage and print their grade based on the percentage.
+#
+percentage = float (input("Enter your percentage: "))
+if (percentage >= 90):
+    grade = "A"
+elif (percentage >= 80):
+    grade = "B"
+else:
+    grade = "C"
+print("Your grade is:", grade)

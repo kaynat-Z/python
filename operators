@@ -31,11 +31,34 @@
 # text = "Programming is fun"
 
 
-text = "Programming is fun"
+# text = "Programming is fun"
 
-vowels = "aeiouAEIOU"
+# vowels = "aeiouAEIOU"
 
-for i in text:
-    if i in vowels:
+# for i in text:
+#     if i in vowels:
 
-       print(i)
+#        print(i)
+
+
+# match case
+
+day = int(input("enter you day between 1 and 7:"))
+
+match day:
+    case 1:
+        print("Monday")
+    case 2:
+        print("Tuesday")
+    case 3:
+        print("wednesday")
+    case 4:
+        print("Thursday")
+    case 5:
+        print("Friday")
+    case 6:
+        print("saturday")
+    case 7:
+        print("Sunday")
+
+        print("enter your day between 1 and 7:3")

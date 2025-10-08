@@ -64,20 +64,34 @@
 #         print("enter your day between 1 and 7:3")
 
 
-grade=float(input("enter your grade between 1 and 5) "))
+# grade=float(input("enter your grade between 1 and 5) "))
 
-match grade:
-    case 1:
-        print("your percentage is >= 90", "Grade A")
-    case 2:
-        print("your percentage is >=70", "Grade B")
-    case 3:
-        print("your percentage is >= 60-", "Grade C")
-    case 4:
-        print("your percentage is >=50", "Grade D")
-    case 5:
-        print("your percentage is >= 40", "Grade E")
-    case 2:
-        print("your percentage is >=20", "Grade F")
+# match grade:
+#     case 1:
+#         print("your percentage is >= 90", "Grade A")
+#     case 2:
+#         print("your percentage is >=70", "Grade B")
+#     case 3:
+#         print("your percentage is >= 60-", "Grade C")
+#     case 4:
+#         print("your percentage is >=50", "Grade D")
+#     case 5:
+#         print("your percentage is >= 40", "Grade E")
+#     case 2:
+#         print("your percentage is >=20", "Grade F")
 
-        print("enter your percentage")
+#         print("enter your percentage")
+
+#importlibrary
+
+import random
+Actual_num=random.randint(30,50)
+while True:
+    guess=int(input("your guess actual num is :"))
+    if(guess<Actual_num):
+        print("low ! Try again")
+    elif(guess>Actual_num):
+        print("High ! Try again")
+    else:
+        print("good ! correct")
+        break

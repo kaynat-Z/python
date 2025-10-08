@@ -43,22 +43,41 @@
 
 # match case
 
-day = int(input("enter you day between 1 and 7:"))
+# day = int(input("enter you day between 1 and 7:"))
 
-match day:
+# match day:
+#     case 1:
+#         print("Monday")
+#     case 2:
+#         print("Tuesday")
+#     case 3:
+#         print("wednesday")
+#     case 4:
+#         print("Thursday")
+#     case 5:
+#         print("Friday")
+#     case 6:
+#         print("saturday")
+#     case 7:
+#         print("Sunday")
+
+#         print("enter your day between 1 and 7:3")
+
+
+grade=float(input("enter your grade between 1 and 5) "))
+
+match grade:
     case 1:
-        print("Monday")
+        print("your percentage is >= 90", "Grade A")
     case 2:
-        print("Tuesday")
+        print("your percentage is >=70", "Grade B")
     case 3:
-        print("wednesday")
+        print("your percentage is >= 60-", "Grade C")
     case 4:
-        print("Thursday")
+        print("your percentage is >=50", "Grade D")
     case 5:
-        print("Friday")
-    case 6:
-        print("saturday")
-    case 7:
-        print("Sunday")
+        print("your percentage is >= 40", "Grade E")
+    case 2:
+        print("your percentage is >=20", "Grade F")
 
-        print("enter your day between 1 and 7:3")
+        print("enter your percentage")
